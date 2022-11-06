@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <title>goodbye</title>
+    <script>
+        function count(){
+            const heading = document.querySelector('h1');
+            if (heading.innerHTML == 'World'){
+                heading.innerHTML = 'goodbye';
+            }
+            else {
+                heading.innerHTML= 'World';
+            }  
+        }
+    </script>
+    <body>
+        <h1>World</h1>
+        <button onclick="count()"> CLick Here</button>
+    </body>
+</html>
